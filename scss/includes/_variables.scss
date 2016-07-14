@@ -1,0 +1,77 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Variables
+
+******************************************************************/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700,300);
+
+// Font
+
+$sans: 'Open Sans', sans-serif;
+$serif: 'Merriweather', 'Georgia', serif;;
+
+// Text
+
+$default-font-size: 16px;
+$letter-space     : 1px;
+
+$mid-grey: #575757;
+
+$alert-yellow: #ebe16f;
+$alert-red: #fbe3e4;
+$alert-green: #e6efc2;
+$alert-blue: #d5edf8;
+
+$link-color: #008CBA;
+$link-hover-color: #007BA1;
+
+// Base  Colors
+
+$white        : #fff;
+$black        : #0b0b0b; /* Cod Gray       */
+$grey         : #797e83; /* Rolling Stone  */
+
+$deep-blue    : #00586f; /* Blue Stone     */
+$mid-gray     : #c5c1bf; /* Cloud          */
+$leather      : #7b2e00; /* Red Beech      */
+$orange       : #ff6600; /* Blaze Orange   */
+$light-blue   : #5bdeff; /* Malibu         */
+$bright-blue  : #00a7f7; /* Azure Radiance */
+$bright-yellow: #fff200; /* Yellow         */
+$scooter-blue : #39add1; /* Scooter        */
+$result-red   : #bb0f00; /* Guardsman Red  */
+
+// Color Palette Modifiers
+
+// $color-palettes: (
+// 	grey: (
+// 		xx-light : lighten($grey, 43%),
+// 		x-light  : lighten($grey, 35%),
+// 	    light    : lighten($grey, 12%),
+// 	    base     : $grey,
+// 	 	dark     : darken($grey, 8%),
+// 	 	x-dark   : darken($grey, 16%)
+// 	),
+// 	black: (
+// 		light    : lighten($black, 10%),
+// 		base     : $black,
+// 		dark     : darken($black, 10%)
+// 	)
+// );
+
+// Grid Stuff
+$screen-sm-min: 768px;
+$container-sm: 750px;
+
+$screen-md-min: 992px;
+$container-md: 970px;
+
+$screen-lg-min: 1200px;
+$container-lg: 1170px;
+
+$grid-columns: 12;
+$grid-gutter-width: 15px;
+
+$plugins-path: '/wp-content/plugins/';
