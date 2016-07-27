@@ -1,0 +1,69 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Modules
+
+            - catalog text block
+
+******************************************************************/
+
+.catalog {
+    min-width: 400px;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 299px;
+    margin-bottom: 2em;
+    background: rgba(0,0,0,.14);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),
+      0 3px 1px -2px rgba(0,0,0,.2),
+      0 1px 5px 0 rgba(0,0,0,.12);
+
+  .catalog__imageLink {}
+  .catalog__image {
+    float: left;
+    margin-right: 2rem;
+    @include floater(left, 2em);
+    @media (max-width: 480px) {
+      margin-right: 1rem;
+    }
+  }
+
+  .catalog__title {
+    font-size: 2em;
+    font-weight: 800;
+    line-height: 1em;
+    margin: 5.5rem 0 .5em 0;
+    @media (max-width: 1004px) {
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+    @media (max-width: 480px) {
+      margin: 5em 0 .5em 0;
+      font-size: 1em;
+      font-weight: 400;
+    }
+  }
+  .catalog__links {
+    background: $scooter-blue;
+    height: 180px;
+    padding: 1em 1.5em 0 0;
+    border-radius: 0 0 4px 0;
+    p {
+      font-size: 1em;
+      line-height: 1.6em;
+      @media (max-width: 1004px) {
+        font-size: .9em;
+
+      }
+    }
+    a {
+      color:$white;
+      margin: 0 2rem 0 0;
+    }
+
+    .catalog__pdf {}
+    .catalog__issuu {}
+    .catalog__register {}
+  }
+}
