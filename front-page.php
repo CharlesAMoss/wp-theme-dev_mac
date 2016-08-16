@@ -26,6 +26,10 @@
 								// 'link_after'  => '</span>',
 							  // ) ); ?>
 						</section>
+						<section class="entry-content clearfix">
+								<?php echo do_shortcode(' [ecs-list-events]'); ?>
+						</section>
+
 
 						<!-- <footer class="article-footer">
 

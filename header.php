@@ -62,13 +62,15 @@
 
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'test' ); ?></a>
 
+		<?php if( is_home() || is_front_page() ) : ?>
 		<?php // Interior Header Image ?>
-    <?php //    <div class="banner-wrap">
-          //  				<div id="banner">
-          //     <div class="spacer"></div>
-          //   </div>
-          //  </div> ?>
-
+    <div class="banner-wrap">
+      				<div id="banner">
+         <div class="spacer"></div>
+       </div>
+    </div>
+		<?php endif; ?>
+		
 		<div id="content">
 
 			<div id="inner-content" class="wrap clearfix">

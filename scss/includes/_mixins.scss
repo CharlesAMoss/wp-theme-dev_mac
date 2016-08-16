@@ -114,8 +114,6 @@ span.amp {
     }
 }
 
-
-
 @mixin responsive-visibility($parent) {
   #{$parent} { display: block !important; }
   tr#{$parent} { display: table-row !important; }
