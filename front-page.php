@@ -26,10 +26,6 @@
 								// 'link_after'  => '</span>',
 							  // ) ); ?>
 						</section>
-						<section class="entry-content clearfix">
-								<?php echo do_shortcode(' [ecs-list-events]'); ?>
-						</section>
-
 
 						<!-- <footer class="article-footer">
 
@@ -47,6 +43,10 @@
 					</article>
 
 				<?php endwhile; ?>
+
+				<section>
+						<?php echo do_shortcode('[ecs-list-events eventdetails="true" limit="3" order="DESC" venue="true" excerpt="true" thumb="true" thumbwidth="150" thumbheight="150" viewall="true"]'); ?>
+				</section>
 
 			<?php else : ?>
 

@@ -22,7 +22,7 @@
 								'link_after'  => '</span>',
 							) ); ?>
 							</section><?php // end article section ?>
-						
+
 						<footer class="article-footer">
 
 
